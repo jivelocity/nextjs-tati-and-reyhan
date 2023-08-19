@@ -8,11 +8,16 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      fontFamily:{
+        'montserrat': ['var(--font-montserrat)', 'sans-serif'],
+        'sansilk': ['var(--font-sansilk)', 'sans-serif'],
+        'avigea' : ['var(--font-avigea)', 'sans-serif'],
+        'kufi' : ['var(--font-kufi)', 'sans-serif'],
       },
+      colors:{
+        'creamColor': '#f5f1db',
+        'grayColor': '#5e6661'
+      }
     },
   },
   plugins: [],
