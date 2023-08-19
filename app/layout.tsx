@@ -31,7 +31,6 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Tati & Reyhan',
     description: 'Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/I berkenan untuk memberikan doa restu kepada kedua mempelai.',
-    images: ['.././public/images/metaImage.png'],
     url: 'tati-dan-reyhan.vercel.app',
   }
 }
