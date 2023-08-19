@@ -28,11 +28,6 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: 'Tati & Reyhan',
   description: 'Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/I berkenan untuk memberikan doa restu kepada kedua mempelai.',
-  openGraph: {
-    title: 'Tati & Reyhan',
-    description: 'Merupakan suatu kehormatan dan kebahagiaan bagi kami, apabila Bapak/Ibu/Saudara/I berkenan untuk memberikan doa restu kepada kedua mempelai.',
-    url: 'tati-dan-reyhan.vercel.app',
-  }
 }
 
 export default function RootLayout({
