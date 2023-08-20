@@ -17,6 +17,19 @@ const config: Config = {
       colors:{
         'creamColor': '#f5f1db',
         'grayColor': '#5e6661'
+      },
+      keyframes:{
+        'imageAnimationFrame': {
+            '0%': { backgroundImage: 'url(/images/GreatingBackground1.webp)' },
+            '20%': { backgroundImage: "url(/images/GreatingBackground2.webp)" },
+            '40%': { backgroundImage: "url(/images/GreatingBackground3.webp)" },
+            '60%': { backgroundImage: "url(/images/GreatingBackground4.webp)" },
+            '80%': { backgroundImage: "url(/images/GreatingBackground5.webp)" },
+            '100%': { backgroundImage: "url(/images/GreatingBackground1.webp)" },
+        }
+      },
+      animation:{
+        'imageAnimation': 'imageAnimationFrame 25s ease-in-out infinite',
       }
     },
   },
