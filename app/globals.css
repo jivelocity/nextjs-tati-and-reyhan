@@ -9,34 +9,6 @@ body,
   height: 100vh;
 }
 
-.bgChangeImage{
-    background-image: url("../public/images/GreatingBackground1.webp");
-    animation: changeImage infinite ease-in-out;
-    animation-delay: 5s;
-    animation-duration: 25s;
-}
-
-@keyframes changeImage{
-    0%{
-        background-image: url("../public/images/GreatingBackground1.webp");
-    }
-    20%{
-        background-image: url("../public/images/GreatingBackground2.webp");
-    }
-    40%{
-        background-image: url("../public/images/GreatingBackground3.webp");
-    }
-    60%{
-        background-image: url("../public/images/GreatingBackground4.webp");
-    }
-    80%{
-        background-image: url("../public/images/GreatingBackground5.webp");
-    }
-    100%{
-        background-image: url("../public/images/GreatingBackground1.webp");
-    }
-}
-
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
