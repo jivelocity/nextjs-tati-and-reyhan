@@ -13,21 +13,24 @@ body,
     background-image: url("../public/images/GreatingBackground1.webp");
     animation: changeImage infinite ease-in-out;
     animation-delay: 5s;
-    animation-duration: 20s;
+    animation-duration: 25s;
 }
 
 @keyframes changeImage{
     0%{
         background-image: url("../public/images/GreatingBackground1.webp");
     }
-    25%{
+    20%{
         background-image: url("../public/images/GreatingBackground2.webp");
     }
-    50%{
+    40%{
         background-image: url("../public/images/GreatingBackground3.webp");
     }
-    75%{
+    60%{
         background-image: url("../public/images/GreatingBackground4.webp");
+    }
+    80%{
+        background-image: url("../public/images/GreatingBackground5.webp");
     }
     100%{
         background-image: url("../public/images/GreatingBackground1.webp");

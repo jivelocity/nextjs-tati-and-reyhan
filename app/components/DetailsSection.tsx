@@ -116,12 +116,20 @@ const DetailsSection = () => {
 
                         <Reveal><p className="font-montserrat text-grayColor text-center text-sm max-w-xs font-semibold">Atas kehadiran dan doa kami ucapkan Jazakumullahu khaira.</p></Reveal>
                 </div>
-                <div className="mt-14 md:mt-28 w-full h-20 bg-[url('/images/footer.png')] bg-cover bg-center bg-opacity-75 rounded-b-[36px]">
-                        <h1 className="w-full h-full flex justify-center items-center font-sansilk text-4xl text-grayColor">
-                    <Reveal>
-                            Tati & Reyhan
-                    </Reveal>
-                        </h1>
+                <div className="mt-14 md:mt-28 relative w-full h-20">
+
+                     <Image
+                        alt="Footer Image"
+                        src="/images/footer.png"
+                        className="object-cover object-center rounded-b-[36px] absolute w-full h-20"
+                        width={1920}
+                        height={80}
+                     />
+                    <h1 className="absolute w-full h-full flex justify-center items-center font-sansilk text-4xl text-grayColor">
+                        <Reveal>
+                                Tati & Reyhan
+                        </Reveal>
+                    </h1>
                 </div>
             </div>
         </div>
