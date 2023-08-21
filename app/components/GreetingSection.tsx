@@ -52,7 +52,7 @@ const GreetingSection = () => {
                     <div className="bg-black/20 rounded-xl w-[90%] max-w-lg p-4 flex flex-col items-center gap-6">
                        <h1 className="font-kufi text-xl">السلام عليكم ورحمة الله وبركاته</h1>
                        <p className="text-center text-sm font-semibold font-montserrat">
-                            Maha suci Allah yang telah menciptakan makhluk-Nya dengan berpasang-pasangan. Dengan memohon ridha dan rahmat Allah ta&apos;alaa, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri resepsi pernikahan putra & putri kami:
+                            Maha suci Allah yang telah menciptakan makhluk-Nya dengan berpasang-pasangan. Dengan memohon ridha dan rahmat Allah ta&apos;alaa, kami bermaksud mengundang Bapak/Ibu/Saudara/i untuk menghadiri resepsi pernikahan kami:
                        </p>
                        <h1 className="font-sansilk text-6xl">Tati & Reyhan</h1>
                     </div>
