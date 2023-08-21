@@ -29,8 +29,8 @@ const DetailsSection = () => {
                 </p>
             </Reveal>
         </div>
-        <div className="bg-creamColor relative rounded-[36px]">
-            <div className="absolute w-full h-full mix-blend-multiply bg-center bg-repeat rounded-[36px]" style={{backgroundImage:'url(/images/texture.png)'}}></div>
+        <div className="bg-creamColor relative h-full w-full rounded-[36px] bg-repeat">
+            <div className="absolute w-full h-full mix-blend-multiply bg-center bg-repeat rounded-[36px]" style={{backgroundImage:'url(/images/texture.png)'}}/>
             <div className="w-full min-h-fit flex flex-col items-center mb-4">
                 <div className="flex flex-col md:flex-row gap-8 md:gap-0 w-full justify-evenly items-center text-grayColor mt-16 px-2 z-20">
                     <div className="flex flex-col justify-center items-center">
@@ -117,7 +117,6 @@ const DetailsSection = () => {
                         <Reveal><p className="font-montserrat text-grayColor text-center text-sm max-w-xs font-semibold">Atas kehadiran dan doa kami ucapkan Jazakumullahu khaira.</p></Reveal>
                 </div>
                 <div className="mt-14 md:mt-28 relative w-full h-20">
-
                      <Image
                         alt="Footer Image"
                         src="/images/footer.png"

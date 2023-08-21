@@ -11,9 +11,6 @@ const images = [
         url: '/images/GreatingBackground1.webp',
     },
     {
-        url: '/images/GreatingBackground2.webp',
-    },
-    {
         url: '/images/GreatingBackground3.webp',
     },
     {

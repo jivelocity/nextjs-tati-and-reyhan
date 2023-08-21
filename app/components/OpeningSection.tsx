@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 
 
 import background from "../../public/images/openingImage.png";
-import backgroundLeft from "../../public/images/openingImageLeft1.webp";
+import backgroundRight from "../../public/images/openingImageLeft1.webp";
 import Image from "next/image";
 
 const OpeningSection = () => {
@@ -61,7 +61,7 @@ const OpeningSection = () => {
             </div>
 
         </div>
-        <Image className="w-full h-full object-cover object-top" src={backgroundLeft} alt="Background" />
+        <Image priority className="w-full h-full object-cover object-top" src={backgroundRight} alt="Background" />
      </div>
     </motion.div>
   )
