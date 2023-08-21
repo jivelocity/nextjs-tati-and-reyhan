@@ -120,9 +120,9 @@ const DetailsSection = () => {
                      <Image
                         alt="Footer Image"
                         src="/images/footer.png"
-                        className="object-cover object-center rounded-b-[36px] absolute w-full h-20"
-                        width={1920}
-                        height={80}
+                        className="object-cover object-center rounded-b-[36px] absolute w-full h-full"
+                        width={1726}
+                        height={351}
                      />
                     <h1 className="absolute w-full h-full flex justify-center items-center font-sansilk text-4xl text-grayColor">
                         <Reveal>
