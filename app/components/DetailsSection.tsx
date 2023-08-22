@@ -18,7 +18,7 @@ import Image from "next/image";
 const DetailsSection = () => {
 
   return (
-    <div  className="relative bg-grayColor px-4 overflow-hidden">
+    <div  className="relative bg-grayColor px-4 pb-4 overflow-hidden">
         <div className="absolute inset-0 w-full h-4 bg-gradient-to-b from-[#4c524e] to-transparent"></div>
         <div className="flex w-full justify-center">
             <Reveal>
@@ -31,7 +31,7 @@ const DetailsSection = () => {
         </div>
         <div className="bg-creamColor relative h-full w-full rounded-[36px] bg-repeat">
             <div className="absolute w-full h-full mix-blend-multiply bg-center bg-repeat rounded-[36px]" style={{backgroundImage:'url(/images/texture.png)'}}/>
-            <div className="w-full min-h-fit flex flex-col items-center mb-4">
+            <div className="w-full min-h-fit flex flex-col items-center">
                 <div className="flex flex-col md:flex-row gap-8 md:gap-0 w-full justify-evenly items-center text-grayColor mt-16 px-2 z-20">
                     <div className="flex flex-col justify-center items-center">
                         <Reveal delay={1.2}><Image src={muslimah} alt="muslimah" /></Reveal>
@@ -62,13 +62,14 @@ const DetailsSection = () => {
                 </div>
                 <div className="flex flex-col justify-center items-center text-grayColor mt-12 px-2 z-20">
 
-                        <Reveal>
-                            <p className="font-montserrat text-center text-sm mt-12 max-w-md font-semibold">
+
+                        <h3 className="font-montserrat text-center text-sm mt-12 max-w-md font-semibold">
+                            <Reveal>
                             Dengan memohon Ridho Rahmat Allah <span className="text-xl font-normal">ﷻ</span>, kami bermaksud
                             menyelenggarakan acara pernikahan kami.
-                            </p>
-                        </Reveal>
-                        <Reveal><p className="font-montserrat text-center text-sm mt-4 max-w-md font-semibold">Yang insyaallah akan diselenggarakan pada</p></Reveal>
+                            </Reveal>
+                        </h3>
+                        <h3 className="font-montserrat text-center text-sm mt-4 max-w-md font-semibold"><Reveal>Yang insyaallah akan diselenggarakan pada</Reveal></h3>
 
                             <Reveal>
                                 <div className="grid grid-flow-row-dense grid-cols-1 mt-4">
